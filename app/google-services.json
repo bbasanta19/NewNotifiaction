@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "117936005282",
+    "firebase_url": "https://newnotification-d48fd.firebaseio.com",
+    "project_id": "newnotification-d48fd",
+    "storage_bucket": "newnotification-d48fd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:117936005282:android:a14791caad3f3ec5",
+        "android_client_info": {
+          "package_name": "com.andorid.newnotification"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "117936005282-avdc3jlcjkbe5g7i694uh93q1tm48v86.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8w3HVJL03T1bLO6Uu9q96DIO-cA-PqUE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

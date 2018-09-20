@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/alert_dialogue_shape">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/alert_dialogue_title_shape">
+
+        <TextView
+            android:id="@+id/txt_title"
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:layout_height="wrap_content"
+            android:text="New Message"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:drawableLeft="@drawable/ic_message_black_24dp"
+            android:drawablePadding="5dp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5dp"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="1m ago"
+            android:layout_margin="4dp"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/txt_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="I am a message please click me I am a message please click me I am a message please click me"
+        android:layout_marginLeft="5dp"
+        android:padding="5dp"
+        android:maxLines="2"
+        android:lineSpacingExtra="3dp"/>
+
+</LinearLayout>
